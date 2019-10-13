@@ -2,7 +2,7 @@ var users = ['ismail', 'ali'];
 
 // ! add user
 aded.onclick = function() {
-  var user = prompt('Enter your city?');
+  var user = prompt('Enter your name?');
 
   users.push(user);
   active.setAttribute('class', 'activeSucess');
