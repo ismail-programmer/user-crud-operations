@@ -45,7 +45,7 @@ login.onclick = function() {
   for (var i = 0; i < users.length; i++) {
     if (login === users[i]) {
       active.setAttribute('class', 'activeSucess');
-      document.getElementById('name').innerHTML += 'Hello' + login;
+      document.getElementById('name').innerHTML = 'Hello ' + login;
       active.innerHTML = 'logged in';
       break;
     } else {
