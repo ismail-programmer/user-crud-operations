@@ -1,4 +1,4 @@
-var users = ['ismail', 'ali'];
+var users = ['ismail', 'adeeb'];
 
 // ! add user
 aded.onclick = function() {
@@ -14,9 +14,11 @@ aded.onclick = function() {
 generate.onclick = function() {
   active.setAttribute('class', 'activeSucess');
   active.innerHTML = '';
-
+  active.innerHTML +=  "We have following users :" + ' <br>';
+  
   for (var i = 0; i < users.length; i++) {
-    active.innerHTML += users[i] + ' <br>';
+    active.innerHTML += i + ':-' + users[i] + ' <br>'; 
+
   }
 };
 
