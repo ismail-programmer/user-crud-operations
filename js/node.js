@@ -16,7 +16,7 @@ generate.onclick = function() {
   active.innerHTML = '';
   active.innerHTML +=  "We have following users :" + ' <br>';
   
-  for (var i = 0; i < users.length; i++) {
+  for (var i = 1; i < users.length; i++) {
     active.innerHTML += i + ':-' + users[i] + ' <br>'; 
 
   }
