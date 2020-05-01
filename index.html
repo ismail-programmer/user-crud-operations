@@ -2,37 +2,50 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--? linking css -->
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Ismail</title>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <title>User Crud Operations</title>
 </head>
 
 <body>
-  <header class="header">
-    <h2 class="pageHeading" id="name">Hello, </h2>
-  </header>
-  <section class="userDetails">
-    <h1>User Details</h1>
-    <section class="activity">
-      <div class="detail">
-        <p id="active">Waiting for your commands</p>
-      </div>
-    </section>
-    <section class="options">
-      <button class="btn" id="generate" onclick=(generateUsers())>Generate User List</button>
-      <button class="btn" id="aded">Add User</button>
-      <button class="btn" id="deleteuser">Delete User</button>
-      <hr>
-      <button class="btn" id="login">Login</button>
-    </section>
-
+    <div>
+     <heading class="header">
+      <h2 class="heading-name">
+        <em> Hello, </em><strong class="welcome"> Here You create Your Account & have a FUN😊</strong>
+      </h2>
+     </heading>
+     <h1 class="">User Details😃</h1>
     </div>
-    <!-- ? linking js -->
-    <script src="./js/node.js"></script>
+    <section class="details">
+        <ol class="details-para">
+        Waiting for your commands🤓
+        </ol>
+    </section>
+    <section class="option">
+        <footer class="buttons">
+        <button type="button" class="btn btn-outline-dark btn-lg gen">Generate Users😊</button>
+        <button type="button" class="btn btn-outline-info btn-lg add">Add User😋</button>
+        <button type="button" class="btn btn-outline-danger btn-lg del">Delete User😓</button> 
+        <button type="button" class="btn btn-outline-success btn-lg login">Login😍</button>
+    </footer>
+    </section>
+    <script src="index.js">
+        
+    </script>
 </body>
 
 </html>

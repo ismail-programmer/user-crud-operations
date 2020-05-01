@@ -1,0 +1,51 @@
+
+.header{
+background-color: #800080;
+height: 5rem;
+text-align: center;
+display: inline-block;
+width: 100%;
+padding-top: 1rem;
+color: cornsilk;
+}
+h1{
+    font-size: 2.5em;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+em{
+    font-size: 2.5rem;
+    color: #ff80b0;
+}
+.details{
+    margin: 2%;
+    padding: 3rem;
+    width: 50%;
+    height: 100%;
+    border: 3px solid #5e5e5e;
+    font-size: 1.7rem;
+    text-align: center;
+    border-radius: 15px;
+}
+.details-para{
+    background-color: rgba(128, 128, 128, 0.089);
+    border-radius: 25px;
+}
+.option{
+    position: relative;
+    bottom: 270px;
+    left: 65%;
+    width: 30%;
+    height: 295px;
+    border: 3px solid #5e5e5e;
+    margin-top: 2rem;
+    border-radius: 15px;
+    background-color:#fafcfc;
+    
+    
+}
+.btn{
+    position: inline-block;
+    width: 80%;
+    margin: 0.75rem 2.5rem;
+}
